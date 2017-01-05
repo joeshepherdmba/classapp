@@ -11,8 +11,8 @@ class UserModel{
         this.mobilephone = mobilePhone;
     }
 
-    FullName(){
-        return `(${this.firstName}, ${this.lastName})`
+    fullName(){
+        return `(${this.firstname}, ${this.lastname})`
     }
 }
 
