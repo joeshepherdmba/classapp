@@ -5,7 +5,7 @@
 
 class UserModel {
 
-  constructor(firstName, lastName, email, mobilePhone) {
+  Constructor(firstName, lastName, email, mobilePhone) {
     this.firstname = firstName;
     this.lastname = lastName;
     this.email = email;
@@ -21,7 +21,7 @@ class UserModel {
   // Example of a class function
   // let result = model.fullName();
   fullName() {
-    return `(${this.firstname}, ${this.lastname})`
+    return `${this.firstname}, ${this.lastname}`
   }
 
 }
